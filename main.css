@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+main  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: azure;
+    color:teal;
+    
+    
+}
+h1 {
+    text-align: center;
+    
+}
+label {
+    font-weight: bold;
+}
+
+.outputBin,
+.outputDec {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: aquamarine;
+    padding: .5em;
+    min-height: 1.6em;
+}
