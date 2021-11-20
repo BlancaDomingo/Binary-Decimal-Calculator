@@ -5,40 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
-    
+    <!--  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script> -->
+
     <link rel="stylesheet" href="./main.css">
-  
+
     <title>Binary-Decimal Calculator</title>
 </head>
 
 <body>
-    <h1>Binary-Decimal Calculator</h1>
     <main>
-        <div>            
-            <h3>Binary Number to Decimal Number</h3>
-            <label>
-                Binary Number:
-                <input type="text" id="binToDec" placeholder='...10010'>
-            </label>
-            <button class="buttonBin">Calculate!</button>
-            <button class="buttonBinClear">Clear</button>
-            <p class="outputBin"></p>
-        </div>
+        <h1>Binary-Decimal Calculator</h1>
+        <section>
+            <div class="calculator">  
+                <h3>Binary Number to Decimal Number</h3>
+                <label>
+                    Binary Number:
+                    <input type="text" id="binToDec" placeholder='...10010'>
+                </label>
+                <div>
+                    <button class="buttonBinClear">Clear</button>
+                    <button class="buttonBin">Calculate!</button>
+                  
+                </div>
+                <p class="outputBin"></p>
+            </div>
 
-        <div>
-            <h3>Decimal Number to Binary Number</h3>
-            <label>
-                Decimal Number:
-                <input type="text" id="decToBin" placeholder='...256'>
-            </label>
-            <button class="buttonDec">Calculate!</button>
-            <button class="buttonDecClear">Clear</button>
-            <p class="outputDec"></p>
-        </div>
+            <div class="calculator">
+                <h3>Decimal Number to Binary Number</h3>
+                <label>
+                    Decimal Number:
+                    <input type="text" id="decToBin" placeholder='...256'>
+                </label>
+                <div>
+                    <button class="buttonDecClear">Clear</button>
+                    <button class="buttonDec">Calculate!</button>
+                   
+                </div>
+                <p class="outputDec"></p>
+            </div>
+        </section>
+
     </main>
-
-
 
     <script src="./index.js"></script>
 </body>
