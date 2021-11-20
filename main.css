@@ -10,7 +10,8 @@ body {
     
 }
 main {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     background-image: url('./comp.jpg');
   
     background-color: #290063;
@@ -24,7 +25,7 @@ main {
     background-attachment: fixed; 
     /* overflow: hidden;  */
 
-    padding-top:5em;
+    padding-top:7em;
 }
 section  {
     display: flex;
@@ -43,11 +44,17 @@ section  {
     
 }
 h1 {
-   
+    font-family: 'Squada One', cursive;
+    font-size: 3em;
     text-align: center;
     color: #6dcb4f;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     
+}
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 label {
     font-weight: bold;
@@ -84,4 +91,7 @@ button {
     padding: .3em .5em;
     float: right;
     margin-left: 0.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background-color: white;
 }
