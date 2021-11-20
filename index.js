@@ -43,11 +43,11 @@ function convBinToDec(bin) {
     outputBinResult(`Decimal number: ${result}`);
 
     // https://www.npmjs.com/package/canvas-confetti
-    confetti({
+   /*  confetti({
         particleCount: 200,
         spread: 70,
         origin: { y: 0.6 }
-    });
+    }); */
 
 }
 
@@ -112,11 +112,11 @@ function convDecToBin(str) {
 
     outputDecResult(`Binary number: ${result}`);
 
-    confetti({
+   /*  confetti({
         particleCount: 200,
         spread: 70,
         origin: { y: 0.6 }
-    });
+    }); */
 
 }
 function outputDecResult(result) {
